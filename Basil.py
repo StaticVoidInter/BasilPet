@@ -112,7 +112,8 @@ class Basil(QWidget):
 
     # 随机播放动画
     def randomAction(self):
-        if (not self.alive): return
+        if (not self.alive or self.somethingGrabbed): return
+        self.soundPlayer.stop()
         if (self.dreamAction.isChecked()):
             random.choice(self.autoAnimationList)()
         else:

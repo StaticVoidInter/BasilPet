@@ -207,6 +207,7 @@ class Basil(QWidget):
 
     # 播放死亡音效
     def dieSound(self):
+        """这一段中最后一个是玩笑，在v1.0.2中禁用
         choice = random.randint(0, 2)
         if (choice == 0):
             self.soundPlayer.setSource(QUrl.fromLocalFile(os.path.join(os.path.dirname(__file__), "Audio", "Something_Disappears.wav")))
@@ -214,6 +215,12 @@ class Basil(QWidget):
             self.soundPlayer.setSource(QUrl.fromLocalFile(os.path.join(os.path.dirname(__file__), "Audio", "Creepy_Tune.wav")))
         else:
             self.soundPlayer.setSource(QUrl.fromLocalFile(os.path.join(os.path.dirname(__file__), "Audio", "Oyasumi.wav")))
+        """
+        choice = random.randint(0, 1)
+        if (choice == 0):
+            self.soundPlayer.setSource(QUrl.fromLocalFile(os.path.join(os.path.dirname(__file__), "Audio", "Something_Disappears.wav")))
+        else:
+            self.soundPlayer.setSource(QUrl.fromLocalFile(os.path.join(os.path.dirname(__file__), "Audio", "Creepy_Tune.wav")))
         self.soundPlayer.setLoopCount(1)
         self.soundPlayer.play()
 
@@ -1022,16 +1029,19 @@ class Basil(QWidget):
         elif (choice == 1):
             msg.setText("小贝生气了(｡•ˇ‸ˇ•｡)")
         else:
+            """这一段是整活，在v1.0.2中禁用
             msg.setText("小贝发出了哼、哼、哼、啊啊啊啊啊啊啊的声音以示抗议！\nε=( o｀ω′)ノ")
             self.soundPlayer.stop()
             self.soundPlayer.setSource(QUrl.fromLocalFile(os.path.join(os.path.dirname(__file__), "Audio", "HengAAA.wav")))
             self.soundPlayer.setLoopCount(1)
             self.soundPlayer.play()
+            """
+            msg.setText("小贝特别生气(ノ｀Д)ノ")
         msg.setIcon(QMessageBox.Information)
         yes = QPushButton("安慰小贝")
         yes.clicked.connect(self.resetImage)
         msg.addButton(yes, QMessageBox.YesRole)
-        msg.move(self.x() -32, self.y() - 120)
+        msg.move(self.x(), self.y() - 120)
         msg.exec()
 
     # 现实Basil站立

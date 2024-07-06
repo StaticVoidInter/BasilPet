@@ -417,6 +417,8 @@ class Basil(QWidget):
 
     # 不要无视我
     def dontIgnoreMe(self):
+        self.interactedTimer.start(30000)
+        self.timer.stop()
         self.setEmotion("Injured")
         image = QImage()
         image.load(os.path.join(os.path.dirname(__file__), "Images", "DontIgnoreMe.png"))

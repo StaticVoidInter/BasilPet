@@ -1,7 +1,4 @@
 # BasilPet
-<b>内容警告：残忍的描写  
-Content Warning: Cruel Depictions</b> 
-
 ---
 
 贝瑟尔桌面宠物~和可爱小贝一起玩耍！…或者，做一些和原作剧情一样出生的事  
@@ -22,25 +19,3 @@ Content Warning: Cruel Depictions</b>
 就是这样，和贝瑟尔愉快地玩耍吧(≧∀≦)ゞ  
 
 图片和音效素材来自原作《Omori》，一切版权归原作者Omocat所有。
-
----
-
-BASIL Desktop Pet~ Play with cute BASIL! ...Or, do something as horrible as the original story  
-
-This is a desktop pet of BASIL (a character in OMORI).  
-How to operate: open the .exe file, and a cute BASIL will pop out in the lower right corner of the desktop ( •̀ ω •́ )✧  
-Right-click on BASIL to see various functions.  
-You can choose to turn on or off the emotional avatar and sound function, switch BASIL's form (dream/reality), or perform certain actions.  
-(Some of these actions will change BASIL's state and the options in the right-click menu)  
-If you don't interact with BASIL for a while, BASIL will also do some actions on its own.  
-
-Click Release to see the download page! Note that the latest release is Chinese version, you need to click "+1 release" to see English version.  
-If this file cannot run on your computer, you can also download the source code and run it with Python.  
-
-The author's coding skills are relatively low, and there is not much time to optimize the program and do detailed testing, so the code may be a bit bad ;(  
-also, I'm poor in English, so the translation might be inaccurate  
-If you find any problems or want to give me some suggestions, you can contact me at any time!  
-
-That's it, have fun with BASIL (≧∀≦)ゞ  
-
-The pictures and sound effects are from the original work "OMORI", and all copyrights belong to the original author OMOCAT.  

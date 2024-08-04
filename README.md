@@ -34,7 +34,7 @@ You can choose to turn on or off the emotional avatar and sound function, switch
 (Some of these actions will change BASIL's state and the options in the right-click menu)  
 If you don't interact with BASIL for a while, BASIL will also do some actions on its own.  
 
-Click Release to see the download page!  
+Click Release to see the download page! Note that the latest release is Chinese version, you need to click "release" to see English version.  
 If this file cannot run on your computer, you can also download the source code and run it with Python.  
 
 The author's coding skills are relatively low, and there is not much time to optimize the program and do detailed testing, so the code may be a bit bad ;(  

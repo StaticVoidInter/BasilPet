@@ -2,6 +2,8 @@
 <b>内容警告：残忍的描写  
 Content Warning: Cruel Depictions</b> 
 
+---
+
 贝瑟尔桌面宠物~和可爱小贝一起玩耍！…或者，做一些和原作剧情一样出生的事
 
 这是一个贝瑟尔（Basil, Omori中的角色）的桌面宠物。  
@@ -21,6 +23,7 @@ Content Warning: Cruel Depictions</b>
 
 图片和音效素材来自原作《Omori》，一切版权归原作者Omocat所有。
 
+---
 
 BASIL Desktop Pet~ Play with cute BASIL! ...Or, do something as horrible as the original story
 
